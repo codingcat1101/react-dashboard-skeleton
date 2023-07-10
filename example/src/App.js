@@ -1,25 +1,3 @@
-# react-dashboard-skeleton
-
-> react-dashboard-skeleton provides you a basic skeleton UI for dashboard containing navbar and sidebar along with basic routes. You can modify the routes based on your needs. The content section will be changing based on the routes clicked on the sidebar
-
-[![NPM](https://img.shields.io/npm/v/react-dashboard-skeleton.svg)](https://www.npmjs.com/package/react-dashboard-skeleton) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-
-## Install
-
-```bash
-npm install --save react-dashboard-skeleton
-```
-
-## For yarn installation
-
-```bash
-yarn add react-dashboard-skeleton
-```
-
-
-## Usage
-
-```jsx
 import React from 'react'
 
 import { DashboardSkeleton } from 'react-dashboard-skeleton'
@@ -31,9 +9,8 @@ import Reports from './reports'
 const navProps = {
   showNav : true,
   customStyles : {},
-  titleComponentType : 'text', // logo , text => these types could be passed to display on top of the nav bar
+  titleComponentType : 'text',
   title : 'My Dashboard',
-  // logoUrl : '' ## Pass this param if the titleComponentType is "logo"
 }
 
 const sidebarProps = {
@@ -67,9 +44,3 @@ const App = () => {
 }
 
 export default App
-
-```
-
-## License
-
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
